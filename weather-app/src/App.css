@@ -2,16 +2,20 @@ body {
   margin: 0;
   color: #fff;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #020917, #101725);
+  background-image: url('./assets/sunset.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .content {
   display: flex;
-  min-height: 100vh;
   line-height: 1.1;
-  text-align: center;
+  text-align: start;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
+  padding: 0 0 0 100px;
 }
 
 .content h1 {
